@@ -1,6 +1,6 @@
 body{
-  /* overflow-x: hidden; */
-  overflow-y: hidden;
+ 
+  overflow-x: hidden;
 }
 .a{
 background-image: url("image-deep-earth2.jpg");
