@@ -1,0 +1,200 @@
+
+
+body{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(0%, 0%, 100%);
+    font-size: 15px;
+    overflow-x: hidden;
+}
+.navFlex{
+    display: flex ;
+    float: right;
+    
+}
+.navFlex a{
+    padding: 16px;
+    text-decoration: none;
+    text-align: right;
+    color: white;
+    margin-top: -3em;
+    
+}
+
+
+.first{
+padding-left: 10em;
+}
+.header{
+    padding:30px;
+    background: none;
+    color: white;
+    border: solid;
+    width: 8em;
+    margin-left: 5em;
+
+    
+    
+}
+.top{
+background-image:url("image-hero.jpg") ;
+height: 16em;
+}
+
+
+
+
+.middle{
+display: flex;
+flex-wrap: wrap;
+margin-top: 10px;
+padding: 5em;
+width: 80%;
+padding-left: 5em;
+
+}
+.left{
+flex:60%
+
+
+}
+.right{
+flex:40%;
+margin-top: 10em;
+margin-left: -10em;
+padding-top: 20px;
+background-color: white;
+width: 60%;
+padding-left: 3em;
+}
+.down{
+display:flex;
+justify-content: space-between;
+
+}
+.st{
+
+margin-left: 7em;
+
+
+}
+.nd{
+
+margin-right: 10em;
+
+}
+.grid{
+display: grid;
+grid-template-areas: 
+"a b c d"
+"e f g h"
+;
+border: 40px;
+gap:10px;
+width: 50%;
+padding: 1em;
+padding-right: 15em;
+color: whitesmoke;
+margin-left: 5em;
+
+}
+
+.a{
+background-image: url("image-deep-earth.jpg");
+padding: 100px;
+grid-area:a;
+
+}
+
+
+.b{
+background-image: url("image-night-arcade.jpg");
+padding: 100px;
+grid-area:b;
+}
+.c{
+background-image: url("image-soccer-team.jpg");
+padding: 100px;
+grid-area:c;
+}
+.d{
+background-image: url("image-grid.jpg");
+padding: 100px;
+grid-area: d;
+}
+.e{
+background-image: url("image-from-above.jpg");
+padding:100px;
+grid-area: e;
+}
+.f{
+background-image: url("image-pocket-borealis.jpg");
+padding: 100px;
+grid-area: f;
+}
+.g{
+background-image: url("image-curiosity.jpg");
+
+padding: 100px;
+grid-area: g;
+}
+.h{
+background-image: url("image-fisheye.jpg");
+padding: 100px;
+grid-area: h;
+}
+.foot{
+background-color: black;
+color:white ;
+width: 100%;
+padding:50px;
+height: 100%;
+margin-top: 5em;
+width: 100vw;
+margin-left: -5em;
+
+}
+.footer{
+display: flex;
+justify-content: space-between;
+}
+.footleft{
+margin-left: 9em;
+
+}
+.footright{
+margin-right: 17em;
+
+}
+
+
+.footnav{
+display: flex;
+justify-content: space-around;
+}
+
+.footnavleft a{
+    color: white;
+    text-decoration: none;
+    padding:1em ;
+    margin-left: 0em;
+    
+}
+
+
+.openMenu{
+display:none ;
+}
+
+.closeMenu{
+    display:none;
+    width: 20px;
+    height: 20px;
+}
+    
+.footright1{
+display: none;
+}
+.nd2{
+display: none;
+}

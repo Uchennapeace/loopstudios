@@ -1,0 +1,231 @@
+
+.a{
+background-image: url("image-deep-earth2.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+width:100%;
+padding:35% ;
+margin-left: -4em;
+} 
+.b{
+  background-image: url("image-night-arcade2.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;  
+  padding: 35%;
+  margin-left: -4em;
+}   
+.c{
+background-image: url("image-soccer-team2.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+width:100%;
+padding: 35%;
+margin-left: -4em;
+}
+.d{
+background-image: url("image-grid2.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+width: 100%;
+padding:35%;
+margin-left: -4em;
+}
+.e{
+background-image: url("image-from-above2.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+width: 100%;
+padding: 35%;
+margin-left: -4em;
+}
+.f{
+background-image: url("image-pocket-borealis2.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+width: 100%;
+padding: 35%;
+margin-left: -4em;
+
+}
+.g{
+background-image: url("image-curiosity2.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+width: 100%;
+padding: 35%;
+margin-left: -4em;
+}
+.h{
+background-image: url("image-fisheye2.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+width: 100%;
+padding: 35%;
+margin-left: -4em;
+}
+
+
+
+body{
+box-sizing:border-box;
+}
+.top{
+background-image: url("image-hero2.jpg");
+background-size: contain;
+display:flex;
+flex-direction: column;
+height: 70em;
+} 
+
+.grid{
+    display: flex;
+flex-direction: column;
+
+
+}
+
+
+  
+
+
+.header{
+margin-left: 1em;
+margin-top: 15em;
+}
+.first{
+padding:2em;
+}
+.left{
+flex: 30%;
+
+}
+.left img{
+  max-width: 100%;
+  height: auto;
+  margin-left: -2em;
+  
+}
+.right{
+  text-align: center;
+  padding-left: 13em;
+  font-size: 15px;
+  font-family:sans-serif;
+  font-weight: 400;
+  margin-top: -1em;
+
+
+}
+.foot{
+display: flex;
+flex-direction: column;
+margin-top: 2em;
+}
+.middle{
+display: block;
+
+}
+
+
+.nav a{
+display:flex;
+flex-direction:column;
+align-items: center;
+justify-content: space-between;
+
+}
+.nav img{
+  display: block;
+  
+}
+
+.footer{
+display: flex;
+flex-direction: column;
+text-align: center;
+
+
+}
+.footnavleft{
+display: flex;
+flex-direction: column;
+text-align: center;
+gap: 0;
+}
+.footnav{
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+.footright{
+  display: none;
+}
+.footright1{
+  display: block;
+  
+  
+}
+.st{
+text-align: center;
+margin-top: -4em;
+}
+.nd{
+  display: none;
+}
+
+.nd2{
+  display: block;
+  text-align: center;
+  padding-bottom: 2em;
+  padding-top:-2em ;
+}
+
+.footleft{
+  margin-right: 8em;
+}  
+
+.navFlex{
+    
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(360deg ,black,blue, rgb(58, 11, 11));
+  transition: top 2s ease;
+  display: none;
+}
+
+.closeMenu{
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: rgb(58, 11, 11); 
+  cursor: pointer;   
+}
+
+.openMenu{
+  display: block;
+  float: right;
+  margin-top: -4em;
+  cursor: pointer;
+ 
+}
+
+.navFlex a{
+  padding: 50px;
+}
+
+
+
+
+
+
+
+
+
